@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage{newcent}
+\usepackage[subsectionbib]{bibunits}
+\renewcommand{\refname}{} % remove word "References" from above references
+\usepackage[paper=letterpaper,
+            marginparwidth=1.2in,
+            marginparsep=.05in,
+            margin=1in]{geometry}
+\setlength{\parindent}{0in}
+
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+\usepackage{paralist}
+\setdefaultitem{}{\textbullet}{}{}
+
+\usepackage[sc,compact]{titlesec}
+
+\begin{document}
+\titleformat{\section}[block]{\normalfont}{\thesection}{.5em}{\titlerule\\[.8ex]\bfseries}
+\titleformat{\subsection}{\normalfont}{\thesection}{-.5em}{\vspace{-1.5ex}\slshape}
+
+\defaultbibliography{references}
+\defaultbibliographystyle{unsrt}
+
+\begin{center}
+  {\Large James G. Malcolm} \\
+  {\small
+    malcolm@bwh.harvard.edu --
+    www.jgmalcolm.com --
+    (770)856-9045} \\
+  {\small (updated \today)}
+\end{center}
+\vspace{-1.7em}
+
+\section*{Education}
+Georgia Institute of Technology, Atlanta, GA
+\begin{itemize}
+\item[] PhD Electrical and Computer Engineering, October 2010
+  \begin{compactitem}
+  \item Concentration: Computer Vision
+  \item Advisors: Yogesh Rathi and Allen Tannenbaum
+  \end{compactitem}
+
+\item[] MS Electrical and Computer Engineering, August 2008
+  \begin{compactitem}
+  \item Concentration: Systems and Control
+  \end{compactitem}
+
+\item[] MS Computer Science, May 2006
+  \begin{compactitem}
+  \item Concentration: Programming Languages, Operating Systems
+  \end{compactitem}
+
+\item[] BS Discrete Mathematics, May 2006
+  \begin{compactitem}
+  \item Thesis: Back and Forth Error Correction on Quad-Tree Meshes
+  \item Advisor: Yingjie Liu
+  \item Highest honors %% (GPA: 3.7/4.0)
+  \end{compactitem}
+
+\item[] BS Computer Science, December 2004
+  \begin{compactitem}
+  \item Concentration: Programming Languages, Operating Systems
+  \item Highest honors %% (GPA: 3.8/4.0)
+  \end{compactitem}
+
+\end{itemize}
+
+\section*{Work Experience}
+\begin{enumerate}
+\item[\textit{AccelerEyes. (VP Engineering, co-founder)}] Development of
+  software enabling easy parallel programming.  \textit{(Fall 2007-present)}
+\item[\textit{Psychiatry Neuroimaging Laboratory, Harvard Medical
+    School. (Research Fellow)}] Techniques to estimate neural tissue
+  micro-structure.  \textit{(Fall 2008 - Spring 2010)}
+\item[\textit{CellularEyes. (co-founder)}] Development of
+  software enabling easy storage and analysis of microscopy data.
+  \textit{(Fall 2007-present)}
+\item[\textit{Diagis. (Engineer)}] Implementation of research-level
+  programming language techniques for security analysis of commercial
+  languages.  \textit{(Spring 2007)}
+\item[\textit{Independent Consultant.}] Development of target tracking systems
+  under the direction of my advisor Allen Tannenbaum.  Contracts have been
+  with Boeing, MZA Associates Corp (\texttt{mza.com}), and the Optical
+  Sciences Company (\texttt{tosc.com}). \textit{(2005-2007)}
+\end{enumerate}
+
+Citizenship: US
+
+% \section*{Teaching Assistantships}
+% \begin{enumerate}
+% \item CS2130 - Introduction to Compilers. \textit{(Fall 2002)}
+% \item Math3212 - Discrete and Combinatoric Mathematics. \textit{(Fall 2002,
+%     Spring 2003)}
+% \item CS2200 - Systems and Networks. \textit{Head Teaching Assistant, (Spring
+%     2003, Fall 2003, Spring 2004)}
+% \end{enumerate}
+
+
+\section*{Publications}
+\subsection*{International Journals and Book Chapters}
+\begin{bibunit}
+  \nocite{
+    lienhard2011bitensor,
+    Larsen2011,
+    ng_stg,
+    Fillard_fibercup,
+    malcolm2011rabipa,
+    malcolm2010tmi,
+    Rathi2009pdf,
+    malcolm2010mia,
+    rathi2010mrm,
+    agar2010ac,
+    Rathi2010ls,
+    Vela2007,
+    Georgiou2007}
+  \putbib
+\end{bibunit}
+
+\subsection*{International Conference Proceedings}
+\begin{bibunit}
+  \nocite{
+    rathi2010miccai,
+    savadjiev2010miccai,
+    Malcolm2009fc,
+    Malcolm2009study,
+    Malcolm2009cukf_ext,
+    malcolm2009cukf,
+    malcolm2009ipmi,
+    Malcolm2008lss,
+    Karasev2008icip,
+    Lankton2008icip,
+    Lankton2008mmbia,
+    Malcolm2008ls,
+    Malcolm2008spie_mi,
+    Malcolm2008spie_ei,
+    Rathi2008mi,
+    Malcolm2007tc,
+    Malcolm2007mdp,
+    Malcolm2007bmvc,
+    Malcolm2007icip,
+    Rathi2006sip,
+    Vela2005}
+  \putbib
+\end{bibunit}
+
+\subsection*{Abstract and Poster}
+\begin{bibunit}
+  \nocite{Malcolm2012spie,Lienhard2011ismrm,Pryor2011,Rathi2009ismrm,Ng2010ismrm,Ng2010sr,Pryor2008sc,Wyrzykowski2006}
+  \putbib
+\end{bibunit}
+
+\subsection*{Patent}
+\begin{bibunit}
+  \nocite{Pryor2007patent}
+  \putbib
+\end{bibunit}
+
+\subsection*{Talks and Oral Presentations}
+\begin{bibunit}
+  \nocite{
+    Malcolm2011boston,
+    Malcolm2010gtc,
+    Malcolm2009gtc,
+    Malcolm2009ipmi,
+    Malcolm2008lss,
+    Malcolm2008spie_ei,
+    Malcolm2007tc,
+    Vela2005}
+  \putbib
+\end{bibunit}
+
+% \subsection*{Reviewer}
+% IEEE Transactions on Medical Imaging,
+% IEEE Transactions on Image Processing,
+% IEEE Transactions on Pattern Analysis and Machine Intelligence,
+% IEEE CVPR Workshops
+
+\end{document}
